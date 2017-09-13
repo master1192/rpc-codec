@@ -1,6 +1,6 @@
 package jsonrpc2
 
-import "context"
+import "golang.org/x/net/context"
 
 // WithContext is an interface which should be implemented by RPC method
 // parameters type if you need access to request context in RPC method.
