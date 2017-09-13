@@ -6,7 +6,7 @@
 package jsonrpc2
 
 import (
-	"context"
+	"golang.org/x/net/context"
 	"encoding/json"
 	"errors"
 	"io"
